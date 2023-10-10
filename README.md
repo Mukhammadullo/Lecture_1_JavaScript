@@ -206,4 +206,33 @@ console.log(2+null) //2nul
 
 ```
 
+- ## _Conditions in javaScript_
+>simple
+```js
+
+
+let numOne=5
+let numTwo=3
+if(numOne>numTwo){
+    console.log("NumOne is big")
+}else 
+console.log("NumTwo is big")
+
+
+```
+>Ternary Operator
+```js
+
+let numOne=5
+let numTwo=3
+
+
+numOne>numTwo? console.log("NumOne is big") : console.log("NumTwo is big")
+
+```
+>Switch Case
+```js
+
+```
+
 
