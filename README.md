@@ -119,5 +119,91 @@ const symbol2 = Symbol();
 console.log(symbol1 === symbol2); 
 // Output: false (symbols are always unique)
 ```
+- ### 7.BigInt- values are created by appending the n suffix to an integer literal or by using the BigInt() function. 
+```js
+const bigNumber = 1234567890123456789012345678901234567890n; // 
+console.log(bigNumber); // Output: 1234567890123456789012345678901234567890n
+
+
+//typeof
+const bigNumber=1234n
+console.log(typeof(biNumber)) //BigInt
+```
+
+- >># _JavaScript has dynamic typing: We do not have to manually define the data tyoe of value stored in a variable ***Value has type , Not variable_
+
+
+- ## _Operators in JavaScript_
+> ### _Arithmatic Operator in JavaScript_
+```js
+
+//plus
+consoloe(20+30) //50
+
+//minus
+console.log(10-5) //5  
+
+//multiplying
+console.log(2*8) //16
+
+//devided
+console.log(8/2) //4
+```
+> ### _Comparison in JavaScript_
+```js
+
+// ==
+console.log(2==2) //true
+console.log(2=="2")// true
+
+// ===  
+console.log(2==="2") // false
+
+// >=
+console.log(2>=1) //true
+console.log(2>1) //true
+
+//!=
+console.log(2!=2) //false
+
+```
+
+> _Logical In JavaScript_
+```js
+
+// ||_or
+
+if(2>5 || 2<5){
+    console.log(true)
+}else
+console.log(false)   //true
+
+
+// &&_and
+if(2<3 && 3>2)
+{
+    console.log(true)
+}else 
+console.log(false) //true
+
+
+// !_not
+console.log(!true) //false
+
+```
+
+- ## _JavaScript type Conversions_
+```js
+
+// +
+console.log(2+"2") //22
+console.log(2+"2a") //22a
+console.log(2+true) //2true
+console.log(2+undefined) //2undefined
+console.log(2+null) //2nul  
+
+//worked concat 
+
+```
 
 
