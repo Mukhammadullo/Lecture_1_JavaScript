@@ -308,4 +308,44 @@ do{
 }while (i<5)
 console.log(result)  //12345    
 ```
-##______________________________________________________
+## ___________________________________________________________________
+
+## _What is Function in JavaScript?_
+> ### _In JavaScript, a function is a reusable block of code that performs a specific task or calculates a value.(В JavaScript функция — это повторно используемый блок кода, который выполняет определенную задачу или вычисляет значение.)_
+
+
+## - _Three are ways of writing a function in JavaScript_
+> # _1.Function declaration_
+```js
+
+function SumNum(a,b){
+    return a+b
+}
+console.log(SumNum(5,5)) // 10
+```
+> # _2.Function Expression have two way_
+```js
+//first way -> anonymous function
+
+let SumNum=function(a,b){
+    return a+b
+}
+console.log(SumNum(2,3))
+
+
+//arrow function
+let SumNum=(a,b)=>{
+    return a+b
+}
+console.log(SumNum(2,3))
+```
+> # _3.  Immediately Invoked  Function Expression_
+```js
+(function () {
+    console.log(3 + 3);
+})()
+
+```
+
+!["time"](time.jpg)
+
