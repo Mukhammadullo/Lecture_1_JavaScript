@@ -100,5 +100,24 @@ console.log(undefined)      //undefined
 
 ```
 - ### 5.Null aslo-empty value *but typeof() object
+```js
+let number=null
+console.log(number) //number
+
+
+let number=null
+console.log(typeof(number)) //object
+
+
+** console.log(undefined==null) // true
+```
+- ### 6.Symbol-a  is a unique and immutable data type that is used as an identifier for object properties.Символ — это уникальный и неизменяемый тип данных, который используется в качестве идентификатора свойств объекта.(рамз як навъи додаи беназир ва тағйирнопазир аст, ки ҳамчун идентификатор барои хосиятҳои объект истифода мешавад.)
+```js
+const symbol1 = Symbol(); 
+const symbol2 = Symbol(); 
+
+console.log(symbol1 === symbol2); 
+// Output: false (symbols are always unique)
+```
 
 
