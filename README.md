@@ -278,5 +278,34 @@ switch (winter) {
 ```
 
 - ## _Loop in JavaScript_
+>loop_for_in_JavaScript
+```js
 
+for(let i=0; i<10 ; i++){
+    console.log("Welcome to SoftClub")
+}
+```
+>Loop while in JavaScript
+```js
+let n=0;
+let x=0;
 
+while(n<3){
+    n++
+    x+=n
+}
+console.log(n) //3 
+console.log(x) //6
+```
+>Loop do While in JavaScript
+```js
+let result ='';
+let i=0;
+
+do{
+    i=i+1;
+    result=result+i;
+}while (i<5)
+console.log(result)  //12345    
+```
+##______________________________________________________
