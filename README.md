@@ -232,7 +232,51 @@ numOne>numTwo? console.log("NumOne is big") : console.log("NumTwo is big")
 ```
 >Switch Case
 ```js
+let winter = "December"
+switch (winter) {
+    case "December":
+        console.log("Seasons winter");
+        break;
+    case "January":
+        console.log("Season winter");
+        break;
+    case "February":
+        console.log("Season winter");
+        break;
+    case "March":
+        console.log("Season spring");
+        break;
+    case "April":
+        console.log("Season spring");
+        break;
+    case "May":
+        console.log("Season spring");
+        break;
+    case "June":
+        console.log("Season summer");
+        break;
+    case "July":
+        console.log("Season summmer");
+        break;
+    case "August":
+        console.log("Season summer");
+        break;
+    case "September":
+        console.log("Season Autumn");
+        break;
+    case "October":
+        console.log("Season Autumn");
+        break;
+    case "November":
+        console.log("Season Autumn");
+        break;
+    default:
+        console.log("Eror Enter ");
+        break;
+}
 
 ```
+
+- ## _Loop in JavaScript_
 
 
