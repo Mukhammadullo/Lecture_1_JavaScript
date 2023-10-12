@@ -1,7 +1,7 @@
 # JavaScript Introduction
 
 ## _History of JavaScript_
->**This programmin language was created by Brendan Eich in 1995.It was first called Mocha, then LiveScript , and finnaly JavaScript**
+>**This programming language was created by Brendan Eich in 1995.It was first called Mocha, then LiveScript , and finnaly JavaScript**
 ## _What is ECMAScript?_
 >**ECMAScript (ES) is a standardized scripting language specification that JavaScript is based on.**
 
