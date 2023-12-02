@@ -93,10 +93,10 @@ let number
 console.log(number)         // undefined
 
 let number=undefined
-console.log(typeof(number))  //undefined
+console.log(typeof(number))  // undefined
 
 let undefined=undefined
-console.log(undefined)      //undefined
+console.log(undefined)      // undefined
 
 ```
 - ### 5.Null aslo-empty value *but typeof() object
